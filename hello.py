@@ -1,9 +1,12 @@
-a = input("Name :")
-b = int(input("Age : "))
+#Name Lists
+name = ["Han Tun Zaw" , "May Kyi Nue", "Lone Lone" ,"Thel Tone ly"]
+name.append("Chee pay")
+name.sort()
+print(name)
 
-if b > 18:
-    print ("Welcome Form Python")   
-elif b < 18:
-    print ("You Cannot Use Python Yet")
-else:
-    print("Try Again")
+#Number Lists
+number = [60,59,48,20,54,54]
+number.append(100)
+number.count(100)
+number.sort()
+print(number)
