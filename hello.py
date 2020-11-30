@@ -35,3 +35,8 @@ for i in [0,1,2,3,4,5,6,7,8]:
 apple = {"Iphone":"Iphone 11 Pro Max", "Ipad":"Ipad Air ", "MAC":"Macbook Pro (2020"}
 apple = {"Iversion":"IOS 14 Version"}
 print(apple["Iversion"])
+
+#functions 
+
+def square (x):
+    return x * x
