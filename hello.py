@@ -25,3 +25,13 @@ h.add("May Kyi Nue")
 h.remove("Han Tun Zaw")
 print(h)
 print(f"Here Is The Length Of H {len(h)}")
+
+#looping
+for i in [0,1,2,3,4,5,6,7,8]:
+    print(i)
+
+#dic
+
+apple = {"Iphone":"Iphone 11 Pro Max", "Ipad":"Ipad Air ", "MAC":"Macbook Pro (2020"}
+apple = {"Iversion":"IOS 14 Version"}
+print(apple["Iversion"])
